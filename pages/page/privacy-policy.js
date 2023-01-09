@@ -4,22 +4,19 @@ import SearchForm from '../../components/home/SearchForm'
 import Index from '../../components/pages/Policy'
 
 const Policy = () => {
-  return (  
+  return (
     <div>
- 
-  
-    <Header />
 
 
-        <Index />
+      <Header />
 
 
-        
+      <Index />
 
       <Footer />
 
-<SearchForm />
-      </div> 
+      <SearchForm />
+    </div>
 
   )
 }

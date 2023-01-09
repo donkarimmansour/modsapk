@@ -24,4 +24,4 @@ const Terms = () => {
 }
 
 
-export default Contact
+export default Terms
