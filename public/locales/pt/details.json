@@ -1,0 +1,22 @@
+{
+    "info": {
+        "Title": "INFORMASI APLIKASI",
+        "Name": "Nama",
+        "PackageName": "Nama paket",
+        "Publisher": "Penerbit",
+        "Category": "Category",
+        "MODFeatures": "Fitur MOD",
+        "Version": "Versi: kapan",
+        "Size": "Ukuran",
+        "Price": "Harga",
+        "Requires": "Dibutuhkan"
+    } ,
+
+    "AllVersions": "Todas versões" ,
+    "NewVersion": "Nova versão" ,
+    "Download": "Baixar" ,
+    "UpdatedOn": "Atualizado em" ,
+    "ModFeatures": "Recursos do MOD" ,
+    "ReviewAndDiscussion": "REVISÃO E DISCUSSÃO" ,
+    "Votes": "votes" 
+}

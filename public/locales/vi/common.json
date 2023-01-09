@@ -1,0 +1,30 @@
+{
+  "languages": {
+    "English": "English",
+    "Espanol": "Español",
+    "Portugues": "Português",
+    "Francais": "Français",
+    "BahasaIndonesia": "Bahasa Indonesia",
+    "TiengViet": "Tiếng Việt"
+  },
+  "header": {
+    "Games": "Trò chơi", 
+    "Apps": "Ứng Dụng",
+    "Home": "Home"
+  },
+  "footer": {
+    "Copyright": "Bản Quyền © 2022 APKMODY. Sứ mệnh của APKMODY là xây dựng một không gian mở cho những người yêu MOD APK, những người yêu Premium APK và những người yêu GAME.",
+    "Latest": "Mới Nhất",
+    "Trending": "Xu Hướng",
+    "About": "Giới Thiệu",
+    "Contact": "Liên Hệ",
+    "TermsofServices": "Điều Khoản Dịch Vụ",
+    "PrivacyPolicy": "Chính Sách Bảo Mật",
+    "DMCADisclaimer": "Bản Quyền",
+    "WhoWeAre": "Về APKMODY"
+  },
+  "search" : {
+     "SearchResultsFor": "Search results for" ,
+     "Search": "Search..."
+  }
+}  

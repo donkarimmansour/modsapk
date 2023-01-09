@@ -1,0 +1,22 @@
+{
+    "info": {
+        "Title": "THÔNG TIN ỨNG DỤNG",
+        "Name": "Tên",
+        "PackageName": "Tên Gói",
+        "Publisher": "Nhà Phát Hành",
+        "Category": "Category",
+        "MODFeatures": "Tính Năng MOD",
+        "Version": "Phiên Bản",
+        "Size": "Kích Thước",
+        "Price": "Giá",
+        "Requires": "Yêu Cầu"
+    } ,
+ 
+    "AllVersions": "Todas las versiones" ,
+    "NewVersion": "Nueva versión" ,
+    "Download": "Descargar" ,
+    "UpdatedOn": "Actualizado en" ,
+    "ModFeatures": "Características MOD" ,
+    "ReviewAndDiscussion": "REVISIÓN Y DISCUSIÓN" ,
+    "Votes": "votes" 
+}

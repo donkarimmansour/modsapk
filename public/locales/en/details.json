@@ -1,0 +1,24 @@
+{
+    "info": {
+        "Title": "APP INFO",
+        "Name": "Name",
+        "PackageName": "Package Name",
+        "Publisher": "Publisher",
+        "Category": "Category",
+        "MODFeatures": "MOD Features",
+        "Version": "Version",
+        "Size": "Size",
+        "Price": "Price",
+        "Requires": "Requires"
+    } ,
+
+    "AllVersions": "All Versions" ,
+    "NewVersion": "New Version" ,
+    "Download": "Download" ,
+    "UpdatedOn": "Updated on" ,
+    "ModFeatures": "MOD Features" ,
+    "ReviewAndDiscussion": "REVIEW & DISCUSSION" ,
+    "Votes": "votes" 
+
+
+}

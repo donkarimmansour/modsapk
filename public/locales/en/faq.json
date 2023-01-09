@@ -1,0 +1,47 @@
+{
+  "home": { 
+    "Title": "FREQUENTLY ASKED QUESTIONS",
+    "Desc": "Here are the questions that people often ask about APKMODY. If you need more information, browse our pages and categories to learn more about the project.",
+    "Question1": "What is APKMODY?",
+    "Answer1": "\nAPKMODY is an open playground for lovers of Android games & apps.\n\nAt APKMODY, you can easily search and download thousands of MOD APK, Premium APK and Original APK games and apps for free. Use the search button to find what you’re looking for, or browse the pre-designed categories\n\nIf you want to learn more about its history, development, future vision, etc., you can visit the\nintroduction page. ",
+    "Question2": "Is APKMODY safe?",
+    "Answer2": "\nSURE!\n\nAPKMODY always uses the original APK from Google Play as the foundation for the birth of quality MOD versions. We even turn off unnecessary app permissions to optimize battery life and your privacy.\n\nDON’T WORRY if security apps on Android give warnings. The reason is only because the signature of the MOD version has been changed compared to the original.\n",
+    "Question3": "How does APKMODY work?",
+    "Answer3": "\nAPKMODY compiles and publishes the best games and apps based on trends and requests from users.\n\nYou can then browse through the games and apps catalog to find the ones that suit your needs.\n\nAPKMODY takes feedback from you and other lovely users to continue to upgrade, improve the playing field as well as the quality of MOD versions posted in the future.\n",
+    "Question4": "What makes APKMODY different from other websites?",
+    "Answer4": "Free, simple and mindful. ",
+    "Question5": "Does APKMODY charge a fee?",
+    "Answer5": "\nNO.\n\nAPKMODY is completely free and always will be. We will try to maintain the project for as long as I can. If you love this project and want to be a part of it, we’d love to get your support.\n",
+    "Question6": "How to use APKMODY?",
+    "Answer6": "\nYou browse this website, search for your favorites and then download them. It’s all simple.\n"
+  },
+  "download": {
+    "Title1": "Notes before continuing",
+    "Title2": "Download FAQs",
+    "Question1": "Never mind the Play Protect warning!",
+    "Answer1": "As you know, MOD means editing APK files. As a result, the MOD APK files will not match the version available on the Google Play Store.That's why Play Protect now warns you every time you want to install MOD APK.So the best way is to\nturn off Play Protect completely and never mind it if you want to install and use the MOD APK.\n",
+    "Question2": "How to choose the right version you want?",
+    "Answer2": "\nChoose the version that has the\nAPK or\nAPKs or\nXAPK icon only if you want to download the original.\nChoose the version that has the\nMODicon if you want to download the MOD version.\n",
+    "Question3": "How to install?",
+    "Answer3": "Each version has a different installation method. So on the download page of each version, we have specific installation instructions.",
+    "Question4": "How to download?",
+    "Answer4": "Just wait a few seconds and the download button will appear.",
+    "Question5": "Why the download speed is slow?",
+    "Answer5": "The server we use is a high quality, dedicated type that allows distribution of huge volumes of files to all users. Therefore, we are confident that the download speed of APKMODY is not inferior to any other storage system.In case the download speed is slow, please check your bandwidth.\n",
+    "Question6": "The description is not correct with the downloaded file",
+    "Answer6": "If there is a mistake between the description and the downloaded file, please report it to us via the contact section at the bottom of the page.",
+    "Question7": "Broken link?",
+    "Answer7": "If there is a problem with the broken link, cannot download file, please report to our webmasters. Thank you!",
+    "Question8": "Is the file I download from APKMODY safe?",
+    "Answer8": "Of course, every file is checked by antivirus software before being uploaded to the system.Our hosting server is also regularly checked to avoid any threats.\n"
+  },
+  "loader": {
+    "Title": "How to install?",
+    "Question1": "How to fix problems while installing/opening?",
+    "Answer1": "Please see see this page to know how to fix common errors when downloading and using apps from this website.",
+    "Question2": "How to update APK without lose the data?",
+    "Answer2": "If you uninstall the old version before installing the new one, you will lose all your data. To preserve your data, never uninstall old versions. Just install the new version overriding it.",
+    "Question3": "Never mind the Play Protect warning!",
+    "Answer3": "As you know, MOD means editing APK files. As a result, the MOD APK files will not match the version available on the Google Play Store.That's why Play Protect now warns you every time you want to install MOD APK.So the best way is to turn off Play Protect completely and never mind it if you want to install and use the MOD APK."
+  }
+}

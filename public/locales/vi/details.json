@@ -1,0 +1,22 @@
+{
+    "info": {
+        "Title": "THÔNG TIN ỨNG DỤNG",
+        "Name": "Tên",
+        "PackageName": "Tên Gói",
+        "Publisher": "Nhà Phát Hành",
+        "Category": "Category",
+        "MODFeatures": "Tính Năng MOD",
+        "Version": "Phiên Bản",
+        "Size": "Kích Thước",
+        "Price": "Giá",
+        "Requires": "Yêu Cầu"
+    } , 
+
+    "AllVersions": "Tất cả các phiên bản" ,
+    "NewVersion": "Phiên bản mới" ,
+    "Download": "Tải Xuống" ,
+    "UpdatedOn": "Cập nhật lần cuối " ,
+    "ModFeatures": "Tính Năng MOD" ,
+    "ReviewAndDiscussion": "ĐÁNH GIÁ & BÌNH LUẬN" ,
+    "Votes": "lượt đánh giá" 
+}

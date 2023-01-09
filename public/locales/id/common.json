@@ -1,0 +1,30 @@
+{
+  "languages": {
+    "English": "English",
+    "Espanol": "Español",
+    "Portugues": "Português",
+    "Francais": "Français",
+    "BahasaIndonesia": "Bahasa Indonesia",
+    "TiengViet": "Tiếng Việt"
+  },  
+  "header": {
+    "Games": "Permainan",
+    "Apps": "Aplikasi",
+    "Home": "Home"
+  },
+  "footer": {
+    "Copyright": "Hak Cipta © 2022 APKMODY. Misi APKMODY adalah membangun ruang terbuka untuk pecinta APK MOD, pecinta APK Premium, dan pecinta GAME.",
+    "Latest": "Terbaru",
+    "Trending": "Sedang tren",
+    "About": "Tentang",
+    "Contact": "Kontak",
+    "TermsofServices": "Ketentuan Layanan",
+    "PrivacyPolicy": "Kebijakan pribadi",
+    "DMCADisclaimer": "Penafian DMCA",
+    "WhoWeAre": "Siapa kita?"
+  },
+  "search" : {
+     "SearchResultsFor": "Search results for" ,
+     "Search": "Search..."
+  }
+}  

@@ -1,0 +1,22 @@
+{
+    "info": {
+        "Title": "APP INFO",
+        "Name": "Name",
+        "PackageName": "Package Name",
+        "Publisher": "Publisher",
+        "Category": "Category",
+        "MODFeatures": "MOD Features",
+        "Version": "Version",
+        "Size": "Size",
+        "Price": "Price",
+        "Requires": "Requires"
+    } ,
+
+    "AllVersions": "Semua versi" ,
+    "NewVersion": "Versi baru" ,
+    "Download": "Unduh" ,
+    "UpdatedOn": "Diperbarui pada" ,
+    "ModFeatures": "Fitur MOD" ,
+    "ReviewAndDiscussion": "TINJAUAN & DISKUSI" ,
+    "Votes": "votes" 
+} 

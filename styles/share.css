@@ -1,0 +1,294 @@
+@media (max-width: 992px) {
+
+    /* phone */
+    .isPc {
+        display: none;
+    }
+
+    .isPhone {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* pc */
+    .isPc {
+        display: block;
+    }
+
+    .isPhone {
+        display: none;
+    }
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 2000;
+    animation-duration: .3s;
+}
+
+.shareMask {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    background: rgba(0, 0, 0, .3);
+    z-index: 2000;
+    position: fixed;
+    animation-duration: .3s;
+}
+
+.dialogClose {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.dialog {
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.dialog .title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dialog .body {
+    color: #666;
+    font-size: 13px;
+}
+
+.dialog .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dialog .footerBtn {
+    width: 180px;
+    height: 40px;
+    background: #3DA21B;
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.thirdShareBox {
+    position: fixed;
+    width: 48px;
+    height: 400px;
+    top: 150px;
+    right: 0;
+    z-index: 9999;
+}
+
+.shareBtn {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    position: relative;
+    right: 0;
+    position: absolute;
+    padding-left: 8px;
+}
+
+.shareBtnLabel {
+    color: #fff;
+    width: 50px;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.shareBtn:hover .shareBtnLabel {
+    opacity: 1;
+}
+
+.shareBtn:hover {
+    width: 120px;
+}
+
+.shareBtn[data-network='twitter'] {
+    background-color: rgb(77, 159, 235);
+    top: 0;
+}
+
+.shareBtn[data-network='facebook'] {
+    background-color: rgb(57, 117, 234);
+    top: 48px;
+}
+
+.shareBtn[data-network='tumblr'] {
+    background-color: #0F4260;
+    top: 96px;
+}
+
+.shareBtn[data-network='reddit'] {
+    background-color: #ff4500;
+    top: 144px;
+}
+
+.shareBtn[data-network='quora'] {
+    background-color: #C22000;
+    top: 192px;
+}
+
+.shareBtn[data-network='medium'] {
+    background-color: #F9C118;
+    top: 240px;
+}
+
+.shareIcon {
+    width: 35px;
+    height: 35px;
+}
+
+.ml8 {
+    margin-left: 8px;
+}
+
+.shareOpen {
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background: #FF6550;
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2232px%22%20height%3D%2232px%22%20viewBox%3D%220%200%2032%2032%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3Eshare%3C%2Ftitle%3E%3Cg%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23FFFFFF%22%3E%3Cpath%20d%3D%22M26%2C13.4285714%20C26%2C13.6220248%2025.9293162%2C13.7894338%2025.7879464%2C13.9308036%20L20.0736607%2C19.6450893%20C19.932291%2C19.786459%2019.7648819%2C19.8571429%2019.5714286%2C19.8571429%20C19.3779752%2C19.8571429%2019.2105662%2C19.786459%2019.0691964%2C19.6450893%20C18.9278267%2C19.5037195%2018.8571429%2C19.3363105%2018.8571429%2C19.1428571%20L18.8571429%2C16.2857143%20L16.3571429%2C16.2857143%20C15.6279725%2C16.2857143%2014.9750773%2C16.3080355%2014.3984375%2C16.3526786%20C13.8217977%2C16.3973217%2013.2488868%2C16.477306%2012.6796875%2C16.5926339%20C12.1104882%2C16.7079619%2011.6157015%2C16.8660704%2011.1953125%2C17.0669643%20C10.7749235%2C17.2678581%2010.3824423%2C17.5264121%2010.0178571%2C17.8426339%20C9.65327199%2C18.1588557%209.35565592%2C18.534596%209.125%2C18.9698661%20C8.89434408%2C19.4051361%208.71391434%2C19.9203839%208.58370536%2C20.515625%20C8.45349637%2C21.1108661%208.38839286%2C21.7842224%208.38839286%2C22.5357143%20C8.38839286%2C22.9449425%208.40699386%2C23.4025272%208.44419643%2C23.9084821%20C8.44419643%2C23.9531252%208.45349693%2C24.0405499%208.47209821%2C24.1707589%20C8.4906995%2C24.3009679%208.5%2C24.3995532%208.5%2C24.4665179%20C8.5%2C24.5781256%208.46837829%2C24.6711306%208.40513393%2C24.7455357%20C8.34188956%2C24.8199408%208.25446484%2C24.8571429%208.14285714%2C24.8571429%20C8.02380893%2C24.8571429%207.9196433%2C24.7938994%207.83035714%2C24.6674107%20C7.77827355%2C24.6004461%207.72991094%2C24.5186017%207.68526786%2C24.421875%20C7.64062478%2C24.3251483%207.59040206%2C24.2135423%207.53459821%2C24.0870536%20C7.47879436%2C23.9605648%207.43973225%2C23.87128%207.41741071%2C23.8191964%20C6.47246551%2C21.6986501%206%2C20.0208395%206%2C18.7857143%20C6%2C17.3050521%206.19717065%2C16.0662252%206.59151786%2C15.0691964%20C7.79688103%2C12.0706695%2011.0520568%2C10.5714286%2016.3571429%2C10.5714286%20L18.8571429%2C10.5714286%20L18.8571429%2C7.71428571%20C18.8571429%2C7.52083237%2018.9278267%2C7.35342333%2019.0691964%2C7.21205357%20C19.2105662%2C7.07068382%2019.3779752%2C7%2019.5714286%2C7%20C19.7648819%2C7%2019.932291%2C7.07068382%2020.0736607%2C7.21205357%20L25.7879464%2C12.9263393%20C25.9293162%2C13.067709%2026%2C13.2351181%2026%2C13.4285714%20L26%2C13.4285714%20Z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+    background-position: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.thirdSharePhoneBox {
+    position: fixed;
+    bottom: 155px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.sharePhoneBtnLabel {
+    position: absolute;
+    left: -66px;
+    top: 11px;
+    color: #666;
+    width: 55px;
+    height: 20px;
+    background: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sharePhoneBtn {
+    position: relative;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.sharePhoneIcon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.sharePhoneIconBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sharePhoneIconBox[data-network='facebook'] {
+    background: #0F4260 url('/static/img/shareIcon/facebook.png');
+    background-size: 100% 100%;
+}
+
+.sharePhoneIconBox[data-network='twitter'] {
+    background: #0F4260 url('/static/img/shareIcon/twitter.png');
+    background-size: 100% 100%;
+}
+
+.sharePhoneIconBox[data-network='tumblr'] {
+    background: #0F4260 url('/static/img/shareIcon/tumblr.svg');
+    background-size: 100% 100%;
+}
+
+.sharePhoneIconBox[data-network='reddit'] {
+    background: #ff4500 url('/static/img/shareIcon/reddit.svg');
+    background-size: 100% 100%;
+}
+
+.sharePhoneIconBox[data-network='quora'] {
+    background: #C32000 url('/static/img/shareIcon/quora.svg');
+    background-size: 100% 100%;
+}
+
+.sharePhoneIconBox[data-network='medium'] {
+    background: #F9C118 url('/static/img/shareIcon/medium.svg');
+    background-size: 100% 100%;
+}
+
+.sharePhoneBox {
+    position: fixed;
+    bottom: 155px;
+    right: 20px;
+    z-index: 3000;
+    display: flex;
+    flex-direction: column;
+
+    animation-duration: .3s;
+}
+
+.shareNumBox {
+    background: #3DA21B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: -48px;
+    width: 48px;
+    height: 48px;
+    font-size: 12px;
+}
+
+.shareNum {
+    font-size: 14px;
+    height: 17px;
+}

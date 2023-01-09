@@ -1,0 +1,30 @@
+{
+  "languages": {
+    "English": "English",
+    "Espanol": "Español",
+    "Portugues": "Português",
+    "Francais": "Français",
+    "BahasaIndonesia": "Bahasa Indonesia",
+    "TiengViet": "Tiếng Việt"
+  },
+  "header": {
+    "Games": "Jeux",
+    "Apps": "applications",
+    "Home": "Home"
+  },
+  "footer": {
+    "Copyright": "Copyright © 2022 APKMODY. La mission d'APKMODY est de créer un espace ouvert pour les amateurs de MOD APK, les amateurs d'APK Premium et les amateurs de JEUX.",
+    "Latest": "Dernier",
+    "Trending": "Tendance",
+    "About": "À propos de",
+    "Contact": "Contact",
+    "TermsofServices": "Conditions de services",
+    "PrivacyPolicy": "Politique de confidentialité",
+    "DMCADisclaimer": "Avis de non-responsabilité DMCA",
+    "WhoWeAre": "Qui nous sommes?"
+  },
+  "search" : {
+     "SearchResultsFor": "Search results for" ,
+     "Search": "Search..."
+  }
+}  

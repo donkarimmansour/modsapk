@@ -1,0 +1,22 @@
+{
+    "info": {
+        "Title": "INFORMATIONS SUR L'APPLICATION",
+        "Name": "Nom",
+        "PackageName": "Nom du paquet",
+        "Publisher": "Publisher",
+        "Category": "Category",
+        "MODFeatures": "Fonctionnalités MOD",
+        "Version": "Version",
+        "Size": "Taille",
+        "Price": "Prix",
+        "Requires": "Requires" 
+    } ,
+
+    "AllVersions": "Toutes les versions" ,
+    "NewVersion": "Nouvelle version" ,
+    "Download": "Télécharger" ,
+    "UpdatedOn": "Mis à jour le " ,
+    "ModFeatures": "Fonctionnalités MOD" ,
+    "ReviewAndDiscussion": "RÉVISION & DISCUSSION" ,
+    "Votes": "voix" 
+}
