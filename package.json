@@ -9,11 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^9.29.1",
-    "@react-three/fiber": "^8.7.2",
     "dotenv": "^16.0.3",
-    "gsap": "^3.11.1",
-    "i": "^0.3.7",
     "i18next": "^22.0.6",
     "jquery": "^3.6.3",
     "next": "13.0.5",
